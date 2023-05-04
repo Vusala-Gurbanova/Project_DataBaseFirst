@@ -37,7 +37,7 @@ namespace Project_DataBaseFirst.Controllers
             {
                 data.CarsForSales.Add(car);
                 data.SaveChanges();
-                return result;
+                result = "success";
             }
             catch (Exception ex)
             {
